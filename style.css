@@ -84,3 +84,12 @@ footer ul {
     width: 390px;
     display: inline-block;
 }
+ @media (max-width: 500px) {
+     nav a {
+         display: none;
+     }
+ }
+
+  :hover a {
+     color: red;
+ }
